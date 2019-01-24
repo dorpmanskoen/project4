@@ -1,1 +1,152 @@
-<!doctype html><html lang="en"><head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta name="description" content="Learn how to properly end a game of chess"> <link rel="canonical" href="https://dorpmanskoen.github.io/project4/chess-non/ending.html"/> <link rel="icon" href="favicon.ico"> <title>Learn How to Play Chess: Ending a Game</title> <link href="css/bootstrap.min.css" rel="stylesheet"> <link href="css/style.css" rel="stylesheet"></head><body> <div> <div class="collapse bg-dark" id="navbarHeader"> <div class="container"> <div class="row"> <div class="col-sm-8 col-md-7 py-4"> <div class="text-white c-title c-title-small">About</div><div class="text-muted c-paragraph"> This site was created with the intention to research the impacts of semantic web tags. It is not my intention to use any of this site's content for commercial uses, but only for educational purposes. </div></div><div class="col-sm-4 offset-md-1 py-4"> <div class="text-white c-title c-title-small">Contact</div><ul class="list-unstyled"> <li><a href="mailto:koen.dorpmans@student.howest.be" class="text-white">Email me</a></li></ul> </div></div></div></div><div class="navbar navbar-dark bg-dark shadow-sm"> <div class="container d-flex justify-content-between"> <a href="index.html#" class="navbar-brand d-flex align-items-center"> <img class="img-crown" src="img/crown.svg" alt="icon"> <strong>Chess</strong> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> </div></div></div><div role="main"> <div class="jumbotron text-center"> <div class="container c-subheader"> <div class="jumbotron-heading c-title c-title-main">How to play chess</div><div class="lead text-muted c-paragraph"> It's never too late to learn how to play chess - the most popular game in the world! Learning the rules of chess is easy.</div><div class="c-paragraph"> <a href="https://dorpmanskoen.github.io/project4/chess-non/index.html" class="btn btn-primary my-2">Basic Rules</a> <a href="https://dorpmanskoen.github.io/project4/chess-non/advanced.html" class="btn btn-secondary my-2">Advanced Rules</a> <a href="https://dorpmanskoen.github.io/project4/chess-non/ending.html" class="btn btn-secondary my-2">Ending the Game</a> </div></div></div><div class="container"> <div class="c-title c-title-section c-title-large">Ending the Game</div><div class="row"> <div class="col-sm"> <div class="c-title c-title-medium">By Checkmate</div><div class="c-paragraph"> The purpose of the game is to checkmate the opponent's king. This happens when the king is put into check and cannot get out of check. There are only 3 ways a king can get out of check: </div><div class="c-paragraph"> <ul> <li>move out of the way (though he cannot castle!)</li><li>block the check with another piece, or capture the piece threatening the king.</li><li>If a king cannot escape checkmate then the game is over.</li></ul> </div><div class="c-paragraph"> Customarily the king is not captured or removed from the board, the game is simply declared over. </div><div class="d-flex justify-content-between align-items-center"> <button value="img/checkmate.webp" name="How to Checkmate" type="button" class="btnMovement btn btn-sm btn-outline-secondary">View</button> <small class="text-muted">Checkmate</small> </div></div><div class="col-sm"> <div class="c-title c-title-medium">By a Draw</div><div class="c-paragraph"> Occasionally chess games do not end with a winner, but with a draw. There are 5 reasons why a chess game may end in a draw: </div><div class="c-paragraph"> <ul> <li>The position reaches a stalemate where it is one player's turn to move, but his king is NOT in check and yet he does not have another legal move</li><li>The players may simply agree to a draw and stop playing</li><li>There are not enough pieces on the board to force a checkmate (example: a king and a bishop vs.a king)</li><li>A player declares a draw if the same exact position is repeated three times (though not necessarily three times in a row)</li><li>Fifty consecutive moves have been played where neither player has moved a pawn or captured a piece</li></ul> </div></div></div></div><div id="myModal" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01" src="img/image-not-found.png" alt="move on the board"> <div id="caption"></div></div></div><div class="text-muted c-footer"> <div class="container"> <div class="float-right c-paragraph"> <a href="#">Back to top</a> </div><div class="c-paragraph">This site is based on the &copy;Bootstrap Album example!</div></div></div><!-- Bootstrap core JavaScript==================================================--> <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"></script>')</script> <script src="js/popper.min.js"></script> <script src="js/bootstrap.min.js"></script> <script src="js/holder.min.js"></script> <script src="js/script.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Learn how to properly end a game of chess">
+    <link rel="canonical" href="https://dorpmanskoen.github.io/project4/chess-non/ending.html"/>
+    <link rel="icon" href="favicon.ico">
+
+    <title>Learn How to Play Chess: Ending a Game</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <div class="text-white  c-title c-title-small">About</div>
+                        <div class="text-muted c-paragraph">
+                            This site was created with the intention to research the impacts of semantic web tags.
+                            It is not my intention to use any of this site's content for commercial uses, but only for
+                            educational purposes.
+                        </div>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <div class="text-white c-title c-title-small">Contact</div>
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:koen.dorpmans@student.howest.be" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html#" class="navbar-brand d-flex align-items-center">
+                    <img class="img-crown" src="img/crown.svg" alt="icon">
+                    <strong>Chess</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div role="main">
+        <div class="jumbotron text-center">
+            <div class="container c-subheader">
+                <div class="jumbotron-heading c-title c-title-main">How to play chess</div>
+                <div class="lead text-muted c-paragraph">
+                    It's never too late to learn how to play chess - the most popular game in
+                    the world! Learning the rules of chess is easy.</div>
+                <div class="c-paragraph">
+                    <a href="https://dorpmanskoen.github.io/project4/chess-non/index.html" class="btn btn-secondary my-2">Basic Rules</a>
+                    <a href="https://dorpmanskoen.github.io/project4/chess-non/advanced.html" class="btn btn-secondary my-2">Advanced Rules</a>
+                    <a href="https://dorpmanskoen.github.io/project4/chess-non/ending.html" class="btn btn-primary my-2">Ending the Game</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="c-title c-title-section c-title-large">Ending the Game</div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="c-title c-title-medium">By Checkmate</div>
+                    <div class="c-paragraph">
+                        The purpose of the game is to checkmate the opponent's king.
+                        This happens when the king is put into check and cannot get out of check.
+                        There are only 3 ways a king can get out of check:
+                    </div>
+                    <div class="c-paragraph">
+                        <ul>
+                            <li>move out of the way (though he cannot castle!)</li>
+                            <li>block the check with another piece, or capture the piece threatening the king.</li>
+                            <li>If a king cannot escape checkmate then the game is over.</li>
+                        </ul>
+                    </div>
+                    <div class="c-paragraph">
+                        Customarily the king is not captured or removed from the board, the game is simply declared
+                        over.
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <button value="img/checkmate.webp" name="How to Checkmate" type="button" class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                        <small class="text-muted">Checkmate</small>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="c-title c-title-medium">By a Draw</div>
+                    <div class="c-paragraph">
+                        Occasionally chess games do not end with a winner, but with a draw. There are 5 reasons why a
+                        chess game may end in a draw:
+                    </div>
+                    <div class="c-paragraph">
+                        <ul>
+                            <li>The position reaches a stalemate where it is one player's turn to move,
+                                but his king is NOT in check and yet he does not have another legal move</li>
+                            <li>The players may simply agree to a draw and stop playing</li>
+                            <li>There are not enough pieces on the board to force a checkmate (example: a king and a
+                                bishop vs.a king)</li>
+                            <li>A player declares a draw if the same exact position is repeated three times (though not
+                                necessarily three times in a row)</li>
+                            <li>Fifty consecutive moves have been played where neither player has moved a pawn or
+                                captured a piece</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01" src="img/image-not-found.png" alt="move on the board">
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+    </div>
+
+    <div class="text-muted c-footer">
+        <div class="container">
+            <div class="float-right c-paragraph">
+                <a href="#">Back to top</a>
+            </div>
+            <div class="c-paragraph">This site is based on the &copy;Bootstrap Album example!</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
