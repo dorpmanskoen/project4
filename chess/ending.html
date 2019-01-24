@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4 class="text-white c-title c-title-small">About</h4>
-                        <p class="text-muted">
+                        <p class="text-muted c-paragraph">
                             This site was created with the intention to research the impacts of semantic web tags.
                             It is not my intention to use any of this site's content for commercial uses, but only for
                             educational purposes.
@@ -53,68 +53,69 @@
 
     <main role="main">
         <section class="jumbotron text-center">
-            <menu class="container">
+            <div class="container">
                 <h1 class="jumbotron-heading">How to play chess</h1>
-                <p class="lead text-muted">
+                <p class="lead text-muted c-paragraph">
                     It's never too late to learn how to play chess - the most popular game in
                     the world! Learning the rules of chess is easy.</p>
-                <p>
+                <p class="c-paragraph">
                     <a href="index.html" class="btn btn-secondary my-2">Basic Rules</a>
                     <a href="advanced.html" class="btn btn-secondary my-2">Advanced Rules</a>
                     <a href="ending.html" class="btn btn-primary my-2">Ending the Game</a>
                 </p>
-            </menu>
+            </div>
         </section>
 
         <div class="container">
             <h2 class="c-title c-title-section c-title-large">Ending the Game</h2>
-            <section class="row">
+            <div class="row">
                 <article class="col-sm">
                     <h3>By Checkmate</h3>
-                    <p>
+                    <p class="c-paragraph">
                         The purpose of the game is to checkmate the opponent's king.
                         This happens when the king is put into check and cannot get out of check.
                         There are only 3 ways a king can get out of check:
-                        <ul>
-                            <li>move out of the way (though he cannot castle!)</li>
-                            <li>block the check with another piece, or capture the piece threatening the king.</li>
-                            <li>If a king cannot escape checkmate then the game is over.</li>
-                        </ul>
+                    </p>
+                    <ul>
+                        <li>move out of the way (though he cannot castle!)</li>
+                        <li>block the check with another piece, or capture the piece threatening the king.</li>
+                        <li>If a king cannot escape checkmate then the game is over.</li>
+                    </ul>
+                    <p class="c-paragraph">
                         Customarily the king is not captured or removed from the board, the game is simply declared
                         over.
-
-                        <div class="d-flex justify-content-between align-items-center" style="margin-top: 15px">
-                            <button value="img/checkmate.webp" name="How to Checkmate" type="button" class="btnMovement btn btn-sm btn-outline-secondary">View</button>
-                            <small class="text-muted">Checkmate</small>
-                        </div>
                     </p>
+                    <div class="d-flex justify-content-between align-items-center" style="margin-top: 15px">
+                        <button value="img/checkmate.webp" name="How to Checkmate" type="button" class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                        <small class="text-muted">Checkmate</small>
+                    </div>
                 </article>
                 <article class="col-sm">
                     <h3>By a Draw</h3>
-                    <p>
+                    <p class="c-paragraph">
                         Occasionally chess games do not end with a winner, but with a draw. There are 5 reasons why a
                         chess game may end in a draw:
-                        <ul>
-                            <li>The position reaches a stalemate where it is one player's turn to move,
-                                but his king is NOT in check and yet he does not have another legal move</li>
-                            <li>The players may simply agree to a draw and stop playing</li>
-                            <li>There are not enough pieces on the board to force a checkmate (example: a king and a
-                                bishop vs.a king)</li>
-                            <li>A player declares a draw if the same exact position is repeated three times (though not
-                                necessarily three times in a row)</li>
-                            <li>Fifty consecutive moves have been played where neither player has moved a pawn or
-                                captured a piece</li>
-                        </ul>
                     </p>
+                    <ul>
+                        <li>The position reaches a stalemate where it is one player's turn to move,
+                            but his king is NOT in check and yet he does not have another legal move</li>
+                        <li>The players may simply agree to a draw and stop playing</li>
+                        <li>There are not enough pieces on the board to force a checkmate (example: a king and a
+                            bishop vs.a king)</li>
+                        <li>A player declares a draw if the same exact position is repeated three times (though not
+                            necessarily three times in a row)</li>
+                        <li>Fifty consecutive moves have been played where neither player has moved a pawn or
+                            captured a piece</li>
+                    </ul>
                 </article>
-            </section>
+            </div>
         </div>
 
         <div id="myModal" class="modal">
             <!-- The Close Button -->
             <span class="close">&times;</span>
             <!-- Modal Content (The Image) -->
-            <img class="modal-content" id="img01">
+            <img class="modal-content" id="img01" src="img/image-not-found.png" alt="move on the board">
             <!-- Modal Caption (Image Text) -->
             <div id="caption"></div>
         </div>
