@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Play Chess</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <div class="text-white  c-title c-title-small">About</div>
+                        <div class="text-muted c-paragraph">
+                            This site was created with the intention to research the impacts of semantic web tags.
+                            It is not my intention to use any of this site's content for commercial uses, but only for
+                            educational purposes.
+                        </div>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <div class="text-white c-title c-title-small">Contact</div>
+                        <ul class="list-unstyled">
+                            <li><a href="mailto:koen.dorpmans@student.howest.be" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="index.html#" class="navbar-brand d-flex align-items-center">
+                    <img class="img-crown" src="img/crown.svg" alt="icon">
+                    <strong>Chess</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div role="main">
+        <div class="jumbotron text-center">
+            <div class="container c-subheader">
+                <div class="jumbotron-heading c-title c-title-main">How to play chess</div>
+                <div class="lead text-muted c-paragraph">
+                    It's never too late to learn how to play chess - the most popular game in
+                    the world! Learning the rules of chess is easy.</div>
+                <div class="c-paragraph">
+                    <a href="index.html" class="btn btn-primary my-2">Basic Rules</a>
+                    <a href="advanced.html" class="btn btn-secondary my-2">Advanced Rules</a>
+                    <a href="ending.html" class="btn btn-secondary my-2">Ending the Game</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="c-title c-title-section c-title-large">Basic Rules</div>
+            <div class="c-title  c-title-medium">Placing the board</div>
+            <div class="c-paragraph">At the beginning of the game the chessboard is laid out so that each player has the white (or light)
+                color square in the bottom right-hand side.
+                The chess pieces are then arranged the same way each time.
+                The second row (or rank) is filled with pawns. The rooks go in the corners,
+                then the knights next to them, followed by the bishops,
+                and finally the queen, who always goes on her own matching color (white queen on white, black queen on
+                black),
+                and the king on the remaining square.<br>
+
+                After that the player with the white pieces makes the first move.
+            </div>
+        </div>
+        <div class="container">
+            <div class="c-title c-title-section c-title-large">Moving the pieces</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-title c-card-title c-title c-title-small">The King</div>
+                            <img class="card-img-top card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                src="img/king.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text c-paragraph">
+                                    The king is the most important piece, but is one of the weakest.
+                                    The king can only move one square in any direction - up, down, to the sides, and
+                                    diagonally.
+                                    The king may never move himself into check (where he could be captured).
+                                    When the king is attacked by another piece this is called "check".</div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button value="img/king-move.webp" name="Movement of the King" type="button"
+                                            class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <div class="text-muted c-text-small">King movement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-title c-card-title c-title c-title-small">The Queen</div>
+                            <img class="card-img-top card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                src="img/queen.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text c-paragraph">The queen is the most powerful piece.
+                                    She can move in any one straight direction - forward, backward, sideways,
+                                    or diagonally - as far as possible as long as she does not move through any of her
+                                    own pieces.
+                                    And, like with all pieces, if the queen captures an opponent's piece her move is
+                                    over.
+                                    Notice how the white queen captures the black queen and then the black king is
+                                    forced to move.</div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button value="img/queen-move.webp" name="Movement of the Queen" type="button"
+                                            class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <div class="text-muted c-text-small">Queen movement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-title c-card-title c-title c-title-small">The rooks</div>
+                            <img class="card-img-top card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                src="img/rook.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text c-paragraph">The rook may move as far as it wants, but only forward, backward,
+                                    and to the sides.
+                                    The rooks are particularly powerful pieces when they are protecting each other and
+                                    working together!</div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button value="img/rook-move.webp" name="Movement of the Rooks" type="button"
+                                            class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <div class="text-muted c-text-small">Rook movement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-title c-card-title c-title c-title-small">The bishops</div>
+                            <img class="card-img-top card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                src="img/bishop.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text c-paragraph">The bishop may move as far as it wants, but only diagonally.
+                                    Each bishop starts on one color (light or dark) and must always stay on that color.
+                                    Bishops work well together because they cover up each other's weaknesses.</div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button value="img/bishop-move.webp" name="Movement of the Bishops" type="button"
+                                            class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <div class="text-muted c-text-small">Bishop movement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-title c-card-title c-title c-title-small">The knights</div>
+                            <img class="card-img-top card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                src="img/knight.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text c-paragraph">
+                                    Knights move in a very different way from the other pieces –
+                                    going two squares in one direction, and then one more move at a 90 degree angle,
+                                    just like the shape of an “L”.
+                                    Knights are also the only pieces that can move over other pieces.</div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button value="img/knight-move.webp" name="Movement of the Knights" type="button"
+                                            class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <div class="text-muted c-text-small">Knight movement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="card-title c-card-title c-title c-title-small">The pawns</div>
+                            <img class="card-img-top card-img" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                                src="img/pawn.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <div class="card-text c-paragraph">
+                                    Pawns are unusual because they move and capture in different ways: they move
+                                    forward, but capture diagonally.
+                                    Pawns can only move forward one square at a time, except for their very first move
+                                    where they can move forward two squares.
+                                    Pawns can only capture one square diagonally in front of them.
+                                    They can never move or capture backwards.
+                                    If there is another piece directly in front of a pawn he cannot move past or
+                                    capture that piece.</div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button value="img/pawn-move.webp" name="Movement of the Pawns" type="button"
+                                            class="btnMovement btn btn-sm btn-outline-secondary">View</button>
+                                    </div>
+                                    <div class="text-muted c-text-small">Pawn movement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-muted c-footer">
+        <div class="container">
+            <div class="float-right c-paragraph">
+                <a href="#">Back to top</a>
+            </div>
+            <div class="c-paragraph">This site is based on the &copy;Bootstrap Album example!</div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
